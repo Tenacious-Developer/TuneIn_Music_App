@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: dark --default;
+}
+
+.carousel .control-arrow {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    height: 50px !important;
+    margin-top: -25px !important;
+    top: 50% !important;
+}
+  
+.carousel .control-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
